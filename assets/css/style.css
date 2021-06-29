@@ -1005,11 +1005,19 @@ img {
     fill: #dc9f1e;
 }
 
-.testi-box{
+.testi-box-main{
     background: #084489;
     padding: 40px 40px 100px;
     border-radius: 10px;
     opacity: .8;
+}
+
+.testi-box-main h2{
+    display: none;
+}
+
+.testi-box{
+    
 }
 
 .testi-box .test-photo{
@@ -1051,8 +1059,8 @@ img {
 .testi-box-slider .owl-dots{
     display: block;
     position: absolute;
-    bottom: 50px;
-    left: 40px;
+    bottom: -45px;
+    left: 0px;
 }
 
 .testi-box-slider .owl-dots button.active{

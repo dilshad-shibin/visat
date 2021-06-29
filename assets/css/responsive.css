@@ -69,6 +69,7 @@
     .course-offer-box{
         min-height: 251px;
         margin-bottom: 30px;
+        text-align: center;
     }
     .column-top-first, .column-top-3{
         top: 0;
@@ -224,23 +225,63 @@
     .our-specialities h2{
         font-size: 1.8rem;
     }
-    .testi-box .test-photo{
-        flex-wrap: wrap;
-    }
     .fac-content{
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
     .testi-box .test-photo img{
-        margin-bottom: 20px;
+        max-height: 110px;
+    }
+    .testi-box .test-photo h4{
+        font-size: 1.2rem;
+    }
+    .testi-contents img{
+        max-width: 50px;
+    }
+    .testi-contents p{
+        font-size: 18px;
+    }
+    .testi-box-main{
+        padding: 20px 40px 100px;
+    }
+    .testi-box-main h2{
+        display: block !important;
+        color: #fff;
+        margin-bottom: 30px
     }
     .about-header .colo-blue{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .about-img-area .second-img img{
         height: 150px;
     }
+    .visat-offers .second-img img{
+        width: 100%;
+        height: 165px;
+        border-radius: 10px;
+    }
     .second-img-text h5{
         margin-bottom: 10px;
+    }
+    .gallery-slider .owl-dots{
+        display: block;
+        text-align: center;
+    }
+    .gallery-slider .owl-dots button.active{
+        background: orange;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+    }
+    
+    .gallery-slider .owl-dots button{
+        background-color: #c3cedd;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+    .gallery-images{
+        margin-top: 0;
     }
 }
 
