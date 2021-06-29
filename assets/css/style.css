@@ -284,20 +284,33 @@ img {
     z-index: 999;
 }
 
-.form-box{
+.main-form{
     background: #fff;
-    padding: 20px 30px 10px;
     box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
     border-radius: 5px;
 }
 
-.form-box h2{
-    color: #0c63c7;
+.form-header-box{
+    background: #e72a45;
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.form-header-box h2{
+    color: #fff;
     text-transform: uppercase;
     font-size: 23px;
     letter-spacing: 2px;
     font-weight: 600;
-    margin-bottom: 25px;
+}
+
+.form-box{
+    padding: 40px 20px  20px 0px;
 }
 
 .form-box form{
@@ -308,7 +321,6 @@ img {
     background: #f1f0f0;
     height: 60px;
     padding: .375rem .9rem;
-    color: #000;
     margin-bottom: 20px;
     border: transparent;
 }
@@ -351,9 +363,8 @@ img {
 }
 
 .course-offer{
-    margin-top: 175px;
-    padding-bottom: 240px;
     position: relative;
+    padding-top: 50px;
 }
 
 .course-offer::before{
@@ -394,10 +405,15 @@ img {
     padding: 40px 25px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
+    text-align: center;
+    margin-bottom: 30px;
+    min-height: 260px;
 }
 
 .course-offer-box-1{
-    padding-top: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .course-offer-box.course-offer-box-1 h4{
@@ -813,7 +829,7 @@ img {
     width: 50%;
     float: left;
     height: 480px;
-    background: url(../img/bg/contact.jpeg) center no-repeat;
+    background: url(../img/bg/AGP20467.JPG) center no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -853,6 +869,19 @@ img {
 }
 
 .modal-right input{
+    float: left;
+    height: 45px;
+    width: 100%;
+    border: 0;
+    outline: none;
+    color: #333;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    border-radius: 0;
+    padding: .375rem 0;
+}
+
+.modal-right select{
     float: left;
     height: 45px;
     width: 100%;
@@ -968,7 +997,7 @@ img {
 }
 
 .placement-content-text p{
-    font-size: 19px;
+    font-size: 18px;
     max-width: 380px;
     line-height: 30px;
 }
@@ -1158,4 +1187,78 @@ img {
 
 .visat-offers{
     display: none;
+}
+
+.approved-area{
+    padding: 100px 0;
+    margin-top: 120px;
+}
+
+.approved-box{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0px 6px 10px -3px rgb(0 0 0 / 17%);
+    padding: 10px 0;
+}
+
+.approved-box .aicte{
+    display: flex;
+    align-items: center;
+}
+
+.approved-box .aicte img{
+    max-width: 60px;
+    margin-right: 15px;
+}
+
+
+.name-aicte{
+    margin-right: 15px;
+}
+
+.name-aicte p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.aicte-first{
+    border-right: 1px solid #e72a45;
+}
+
+.aicte-second{
+    margin-left: 15px;
+}
+
+@media(max-width: 991px){
+    .order-2-991{
+        order: 2;
+    }
+    .order-1-991{
+        order: 1;
+    }
+}
+
+
+.testi-slider .owl-nav{
+    display: none !important;
+}
+
+.d-block-991{
+    display: none;
+}
+
+@media(max-width: 991px){
+    .d-none-991{
+        display: none;
+    }
+    .d-block-991{
+        display: flex !important;
+        margin-top: 30px;
+    }
+    .d-block-991 .rec-box{
+        margin-bottom: 20px;
+    }
 }
