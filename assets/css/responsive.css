@@ -7,7 +7,14 @@
         padding: 10px;
     }
     .hero-text h2{
-        font-size: 20px;
+        font-size: 45px;
+        color: #fff;
+    }
+    .sub-papers p{
+        color: #ddd;
+    }
+    .apply-btn-banner{
+        background-color: #ffa800;
     }
     .hero-text h2 span{
         font-size: 35px;
@@ -36,9 +43,66 @@
     .course-card-content{
         width: 100%;
     }
+    .navbar-brand img{
+        max-width: 270px;
+    }
+    .nav-item-sm{
+        display: none;
+    }
+    .fixed-top{
+        background-color: #fff;
+    }
+    .hero::before{
+        opacity: -0.2;
+        background: #1374e4;
+    }
+    .text-left-767{
+        display: none;
+    }
+    .hero-text{
+        top: 90%;
+    }
+    .course-offer{
+        margin-top: 400px;
+        padding-bottom: 100px;
+    }
+    .course-offer-box{
+        min-height: 251px;
+        margin-bottom: 30px;
+    }
+    .column-top-first, .column-top-3{
+        top: 0;
+    }
+    .column-top-4{
+        top: 0;
+    }
+    .column-top-5{
+        top: 0;
+    }
+    .about-content p{
+        margin-bottom: 30px;
+    }
+    .about-img-area .first-img img{
+        width: 100%;
+    }
+    .about-img-area .second-img img{
+        width: 100%;
+    }
+    .contact-area .align-items-center{
+        align-items: unset;
+    }
+    .address{
+        margin-bottom: 50px;
+    }
 }
 
 @media(max-width: 767px){
+    .course-offer{
+        margin-top: 530px;
+    }
+    .call-area{
+        margin-bottom: 50px;
+    }
     .hero:after{
         display: none;
     }
@@ -104,6 +168,49 @@
     }
 }
 
+@media(max-width: 576px){
+    .navbar-brand img{
+        max-width: 200px;
+    }
+    .apply-btn{
+        margin-right: 0;
+    }
+    .navbar-nav li a{
+        font-size: 12px;
+        padding: 6px 15px;
+    }
+    .navbar{
+        padding: .5rem;
+    }
+    .hero-text{
+        top: 50%;
+    }
+    .placement-content-img{
+        display: none;
+    }
+    .our-specialities h2{
+        font-size: 1.8rem;
+    }
+    .testi-box .test-photo{
+        flex-wrap: wrap;
+    }
+    .fac-content{
+        margin-bottom: 30px;
+    }
+    .testi-box .test-photo img{
+        margin-bottom: 20px;
+    }
+    .about-header .colo-blue{
+        font-size: 2rem;
+    }
+    .about-img-area .second-img img{
+        height: 150px;
+    }
+    .second-img-text h5{
+        margin-bottom: 10px;
+    }
+}
+
 @media(max-width: 430px){
     .about-box{
         width: 300px;
@@ -123,7 +230,7 @@
         font-size: 12px;
     }
     .navbar-brand img{
-        max-width: 150px;
+        max-width: 200px;
     }
     .sub-papers span{
         font-size: 10px;

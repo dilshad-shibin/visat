@@ -23,30 +23,57 @@
     //Testimonials SLIDER ACTIVE CODE
             $('.testi-slider.owl-carousel').owlCarousel({
                 loop: true,
-                margin: 10,
+                margin: 20,
                 nav: true,
                 dots: false,
                 smartSpeed: 2000,
-                autoplay: true,
+                autoplay: false,
                 responsiveClass: true,
                 autoplayTimeout: 4000,
-                navText: ["<i class='icofont-arrow-left'></i>", "<i class='icofont-arrow-right'></i>"],
+                navText: ["<i class='icofont-simple-left'></i>", "<i class='icofont-simple-right'></i>"],
                 responsive: {
                     0: {
-                        items: 1,
+                        items: 2,
                         nav: false
                     },
                     576: {
                         items: 2
                     },
                     768: {
-                        items: 2
+                        items: 3
                     },
                     992: {
-                        items: 3
+                        items: 5
                     }
                 }
             });
+
+            $('.testi-box-slider.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: false,
+                dots: true,
+                smartSpeed: 2000,
+                autoplay: false,
+                responsiveClass: true,
+                autoplayTimeout: 4000,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    576: {
+                        items: 1
+                    },
+                    768: {
+                        items: 1
+                    },
+                    992: {
+                        items: 1
+                    }
+                }
+            });
+
 
              //Banner SLIDER ACTIVE CODE
              $('.banner-slider.owl-carousel').owlCarousel({
