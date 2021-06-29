@@ -74,6 +74,32 @@
                 }
             });
 
+            $('.gallery-slider.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: false,
+                dots: true,
+                smartSpeed: 2000,
+                autoplay: true,
+                responsiveClass: true,
+                autoplayTimeout: 4000,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    576: {
+                        items: 2
+                    },
+                    768: {
+                        items: 3
+                    },
+                    992: {
+                        items: 3
+                    }
+                }
+            });
+
 
              //Banner SLIDER ACTIVE CODE
              $('.banner-slider.owl-carousel').owlCarousel({
